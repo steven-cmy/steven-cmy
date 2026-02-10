@@ -29,13 +29,13 @@ jobs:
           plugin_achievements: yes
           plugin_achievements_display: compact
           plugin_habits: yes
-          plugin_habits_charts_type: graph
+          plugin_habits_charts_type: classic
           plugin_habits_days: 30
           plugin_steam: yes
           plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
-          plugin_steam_games_limit: 3
+          plugin_steam_games_limit: 1
           plugin_steam_playtime_threshold: 2
-          plugin_steam_recent_games_limit: 2
+          plugin_steam_recent_games_limit: 3
           plugin_steam_sections: player, most-played, recently-played
           plugin_steam_user: ${{ secrets.STEAM_ID }}
           plugin_traffic: yes
